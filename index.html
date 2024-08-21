@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISABEL BOSCAN</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ecce8cfbdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <div class="navbar-brand d-flex align-items-center">
+        <i class="fa-brands fa-instagram mr-1"></i>
+        <span>Instagram</span>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item active">
+            <button type="button" class="btn btn-success mr-4" data-toggle="modal" data-target="#exampleModal">
+              Create a new post
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sube tu Post!</h5>
+                    <button type="button" class="cerrar" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Caption:</p>
+                    <div class="input-group">
+                      <textarea class="form-control" aria-label="With textarea" placeholder="Esto es una prueba KKK"></textarea>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block pt-3 pb-2">
+                      <button class="btn btn-light" type="button"><i class="fa-solid fa-camera"></i></button>
+                      <button class="btn btn-light" type="button"><i class="fa-solid fa-location-dot"></i></button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Publicar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Accessibility</a>
+              <a class="dropdown-item" href="#">Privacy and Data</a>
+              <hr class="dropdown-divider">
+              <a class="dropdown-item" href="#" style="color: red;">Log out</a> 
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav>
+    <div class="nav nav-tabs justify-content-center id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></a>
+      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"></i></a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="row container-fluid">
+        <div class="row container m-auto p-0">
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2016/08/12/19/50/bario-1589516_1280.jpg" class="img-fluid"></div>
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2024/03/04/20/22/dogs-8613175_1280.jpg" class="img-fluid"></div>
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2022/06/21/07/50/dogs-7275314_1280.jpg" class="img-fluid"></div>
+        </div>
+        <div class="row container m-auto p-0">
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2023/11/10/17/00/mountains-8379756_1280.jpg" class="img-fluid"></div>
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2023/11/16/15/17/sea-8392560_1280.jpg" class="img-fluid"></div>
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2024/01/03/17/50/sunset-8485910_1280.jpg" class="img-fluid"></div>
+        </div>
+        <div class="row container m-auto p-0">
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2018/05/15/07/39/girl-3402351_1280.jpg" class="img-fluid"></div>
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2016/05/31/11/26/baby-1426651_1280.jpg" class="img-fluid"></div>
+          <div class="col-4 ratio-1 p-1"><img src="https://cdn.pixabay.com/photo/2022/08/17/15/46/family-7392843_1280.jpg" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade justify-content-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="card mb-4" style="width: 25%; margin: auto;">
+        <div class="card-header d-flex justify-content-between align-items-center bg-white p-0">
+          <h5>#VidaEnElAire</h5>
+          <p class="text-secondary" style="font-size: small;">19/08</p>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2016/08/12/19/50/bario-1589516_1280.jpg" class="card-img-top">
+        <div class="card-body p-1">
+          <p class="card-text p-0"><strong>1,5 M Likes</strong></p>
+          <p class="card-text pb-1">✈️ En el cielo, no hay límites. Aquí estamos, listos para conquistar las alturas una vez más. #Pilotos #VidaEnElAire</p>
+        </div>
+      </div>
+      <div class="card mb-4" style="width: 25%; margin: auto;">
+        <div class="card-header d-flex justify-content-between align-items-center bg-white p-0">
+          <h5>#PastoresAlemanes</h5>
+          <p class="text-secondary" style="font-size: small;">20/08</p>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2024/03/04/20/22/dogs-8613175_1280.jpg" class="card-img-top">
+        <div class="card-body p-1">
+          <p class="card-text p-0"><strong>8904 Likes</strong></p>
+          <p class="card-text pb-1">🐾 Doble problema, doble diversión. Conoce a nuestros inseparables compañeros, siempre listos para la próxima aventura. 🐾 #PastoresAlemanes #DuoDinamico</p>
+        </div>
+      </div>
+      <div class="card mb-4" style="width: 25%; margin: auto;">
+        <div class="card-header d-flex justify-content-between align-items-center bg-white p-0">
+          <h5>#AmorPorLaNaturaleza</h5>
+          <p class="text-secondary" style="font-size: small;">21/08</p>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2022/06/21/07/50/dogs-7275314_1280.jpg" class="card-img-top">
+        <div class="card-body p-1">
+          <p class="card-text p-0"><strong>9283 Likes</strong></p>
+          <p class="card-text pb-1">🐾 Tres amigos, un camino, y la inmensidad de la naturaleza. Nuestros días son siempre una aventura. #PerrosEnLaNaturaleza #TrioAventurero</p>
+        </div>
+      </div>
+      <div class="card mb-4" style="width: 25%; margin: auto;">
+        <div class="card-header d-flex justify-content-between align-items-center bg-white p-0">
+          <h5>#UnaTardeEnLaNaturaleza</h5>
+          <p class="text-secondary" style="font-size: small;">20/08</p>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2023/11/10/17/00/mountains-8379756_1280.jpg" class="card-img-top">
+        <div class="card-body p-1">
+          <p class="card-text p-0"><strong>6 M Likes</strong></p>
+          <p class="card-text pb-1">Nada mejor que recargar energias en un lugar como la naturaleza, donde se aprecia la abundancia real #pasto #verde #nofilterneeded</p>
+        </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
